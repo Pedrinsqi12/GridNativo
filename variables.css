@@ -1,0 +1,28 @@
+:root{
+  color-scheme: light dark;
+
+  --fuente-texto: "Barlow", system-ui, -apple-system, sans-serif;
+  --fuente-titulos: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --texto-suave: #5f5f69;
+  --fondo: #f6f6f8;
+  --texto: #17171a;
+  --fondo-celda: #ffffff;
+  --texto-sobre-imagen: #ffffff;
+  --subtexto-sobre-imagen: #d0d0d8;
+  --fondo-rotulo: rgba(13, 13, 16, 0.72);
+  --degradado-pie: rgba(0, 0, 0, 0.85);
+  --color-pantalon-negro: #111115;
+  --borde-pantalon-negro: rgba(255, 255, 255, 0.15);
+}
+
+@media (prefers-color-scheme: dark){ /* Esto es para cambiar los colores en el mdoo oscuro */
+  :root{
+    --fondo: #0d0d10;
+    --texto: #f4f4f6;
+    --texto-suave: #a5a5b0;
+    --fondo-celda: #18181d;
+    --borde-celda: rgba(255, 255, 255, 0.07);
+    --sombra-hover: 0 12px 28px rgba(0, 0, 0, 0.6);
+    --acento-granate: #b82338;
+  }
+}
